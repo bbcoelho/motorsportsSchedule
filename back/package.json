@@ -1,0 +1,14 @@
+{
+	"name": "back",
+	"module": "index.ts",
+	"type": "module",
+	"scripts": {
+		"dev": "bun run ./src/index.js"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}
