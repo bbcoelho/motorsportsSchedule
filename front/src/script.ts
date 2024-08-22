@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', async function () {
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
-            content = 'Error loading JSON data.';
+            content = 'Error loading JSON dataaaaa.';
         });
 
     const element = document.getElementById('motoGPDate');

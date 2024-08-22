@@ -25,4 +25,3 @@ document.addEventListener('DOMContentLoaded', async function () {
         element.textContent = content;
     }
 });
-export {};
