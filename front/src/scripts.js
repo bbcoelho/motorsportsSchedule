@@ -1,1 +1,0 @@
-document.getElementById('motoGPDate').innerHTML = 'Date: Sun, Sep 1, 09:00';
