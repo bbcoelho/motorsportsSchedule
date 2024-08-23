@@ -1,3 +1,5 @@
+import { RaceData } from "./RaceData";
+
 document.addEventListener('DOMContentLoaded', async function () {
     // URL of the JSON file
     const url = 'http://127.0.0.1:3000';
@@ -6,15 +8,16 @@ document.addEventListener('DOMContentLoaded', async function () {
     let content: string = "";
 
     await fetch(url)
-        .then(response => {
+        .then((response) => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             return response.json(); // Parse the JSON response
         })
-        .then(data => {
+        .then((data) => {
+            console.log(data)
             // Convert JSON data to a string with pretty print
-            const jsonString = JSON.stringify(data, null, 2);
+            const jsonString = JSON.stringify(data.date, null, 2);
             // Set the JSON string as the content of the HTML element
             content = jsonString;
         })

@@ -1,5 +1,6 @@
 {
-    "name": "John Doe",
-    "age": 35,
-    "occupation": "Software Developer"
+    "data": "24/08/2024",
+    "track": "Ciudad del Motor de Aragón",
+    "sprintRaceTime": "9:00",
+    "mainRaceTime": "8:00"
 }
