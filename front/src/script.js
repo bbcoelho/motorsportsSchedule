@@ -1,3 +1,4 @@
+"use strict";
 document.addEventListener('DOMContentLoaded', async function () {
     // URL of the JSON file
     const url = 'http://127.0.0.1:3000';
@@ -18,7 +19,7 @@ document.addEventListener('DOMContentLoaded', async function () {
     })
         .catch(error => {
         console.error('There was a problem with the fetch operation:', error);
-        content = 'Error loading JSON data.';
+        content = 'Error loading JSON dataa.';
     });
     const element = document.getElementById('motoGPDate');
     if (element) {
