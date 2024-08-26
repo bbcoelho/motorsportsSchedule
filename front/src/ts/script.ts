@@ -5,7 +5,11 @@ document.addEventListener('DOMContentLoaded', async function () {
     const url = 'http://127.0.0.1:3000';
 
     // Fetch the JSON file
-    let content: string = "";
+    let content: RaceData = {
+        date: "",
+        track: "",
+        mainRaceTime: ""
+    };
 
     await fetch(url)
         .then((response) => {
@@ -15,19 +19,16 @@ document.addEventListener('DOMContentLoaded', async function () {
             return response.json(); // Parse the JSON response
         })
         .then((data) => {
-            console.log(data)
-            // Convert JSON data to a string with pretty print
-            const jsonString = JSON.stringify(data.date, null, 2);
-            // Set the JSON string as the content of the HTML element
-            content = jsonString;
+            console.log(data);
+            content = data as RaceData;
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
-            content = 'Error loading JSON dataa.';
+            content.date = 'Error loading JSON data.';
         });
 
     const element = document.getElementById('motoGPDate');
     if (element) {
-        element.textContent = content;
+        element.textContent = content.date;
     }
 });

@@ -4,18 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "bun run-p vite watch",
-    "vite": "tsc --outDir ./src && vite serve ./src/",
-    "watch": "watch 'tsc --outDir ./src' ./src/ts",
+    "dev": "vite",
+    "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "lit": "^3.1.4"
   },
   "devDependencies": {
-    "npm-run-all": "^4.1.5",
     "typescript": "^5.5.3",
-    "vite": "^5.4.0",
-    "watch": "^1.0.2"
+    "vite": "^5.4.0"
   }
 }
