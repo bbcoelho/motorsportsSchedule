@@ -3,3 +3,7 @@ body {
     color: #333;               /* Sets the text color to dark gray */
     font-family: Arial, sans-serif; /* Changes the font to Arial */
 }
+
+header, footer {
+    text-align: center;
+}
