@@ -2,8 +2,8 @@ import { EventsData } from "./types";
 
 document.addEventListener('DOMContentLoaded', async function () {
     // URL of the JSON file: DEV or Prod
-    // const url = 'http://127.0.0.1:3000';
-    const url = 'https://motorsportsschedule.onrender.com';
+    const url = 'http://127.0.0.1:3000';
+    // const url = 'https://motorsportsschedule.onrender.com';
 
     // Fetch the JSON file
     let content: EventsData | undefined = undefined;
