@@ -1,11 +1,19 @@
 body {
-    background-color: #f0f0f0; /* Sets a light gray background color */
-    color: #333;               /* Sets the text color to dark gray */
-    font-family: Arial, sans-serif; /* Changes the font to Arial */
+    background-color: #f0f0f0;
+    /* Sets a light gray background color */
+    color: #333;
+    /* Sets the text color to dark gray */
+    font-family: Arial, sans-serif;
+    /* Changes the font to Arial */
 }
 
-header, footer {
+header,
+footer {
     text-align: center;
+}
+
+main section {
+    margin-left: 10px;
 }
 
 ul li:not(:last-child) {
