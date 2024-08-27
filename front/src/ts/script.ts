@@ -1,7 +1,8 @@
 import { EventsData } from "./types";
 
 document.addEventListener('DOMContentLoaded', async function () {
-    // URL of the JSON file
+    // URL of the JSON file: DEV or Prod
+    // const url = 'http://127.0.0.1:3000';
     const url = 'https://motorsportsschedule.onrender.com';
 
     // Fetch the JSON file
@@ -66,6 +67,28 @@ function setData(content: EventsData): void {
     element = document.getElementById('f1MainRaceTime');
     if (element && content.f1.mainRaceTime) {
         element.textContent = content.f1.mainRaceTime;
+    }
+
+    // WEC
+    element = document.getElementById('wecDate');
+    if (element) {
+        element.textContent = content.wec.date;
+    }
+    element = document.getElementById('wecTrack');
+    if (element) {
+        element.textContent = content.wec.track;
+    }
+    element = document.getElementById('wecQualyTime');
+    if (element && content.wec.qualifyingTime) {
+        element.textContent = content.wec.qualifyingTime;
+    }
+    element = document.getElementById('wecSprintRaceTime');
+    if (element && content.wec.sprintRaceTime) {
+        element.textContent = content.wec.sprintRaceTime;
+    }
+    element = document.getElementById('wecMainRaceTime');
+    if (element && content.wec.mainRaceTime) {
+        element.textContent = content.wec.mainRaceTime;
     }
 
     // WRC

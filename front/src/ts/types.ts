@@ -9,5 +9,6 @@ export type RaceData = {
 export type EventsData = {
     motoGP: RaceData
     f1: RaceData
+    wec: RaceData
     wrc: RaceData
 }
