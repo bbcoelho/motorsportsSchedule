@@ -9,17 +9,36 @@ export default defineConfig({
     filename: 'sw.ts',
     registerType: 'prompt',
     injectRegister: false,
-
-    pwaAssets: {
-      disabled: false,
-      config: true,
-    },
+    includeAssets: ['favicon.ico', 'favicon.svg', 'apple-touch-icon-180x180.png'],
 
     manifest: {
       name: 'Motorsports Schedule',
       short_name: 'MSS',
       description: 'Motorsports events schedule all in one place',
       theme_color: '#3367D6',
+      icons: [
+        {
+          "src": "pwa-64x64.png",
+          "sizes": "64x64",
+          "type": "image/png"
+        },
+        {
+          "src": "pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "pwa-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        },
+        {
+          "src": "maskable-icon-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "maskable"
+        }
+      ]
     },
 
     injectManifest: {
