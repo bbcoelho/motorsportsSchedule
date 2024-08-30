@@ -8,9 +8,8 @@ export default defineConfig({
     srcDir: 'src',
     filename: 'sw.ts',
     registerType: 'autoUpdate',
-    injectRegister: false,
-    includeAssets: ['favicon.ico', 'favicon.svg', 'apple-touch-icon-180x180.png'],
-
+    injectRegister: 'script',
+    
     manifest: {
       name: 'Motorsports Schedule',
       short_name: 'MSS',
