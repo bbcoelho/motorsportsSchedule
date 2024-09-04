@@ -1,24 +1,24 @@
 {
     "motoGP": {
-        "date": "Date: Sun, Sep 1",
-        "track": "Track: Ciudad del Motor de Aragón",
-        "qualifyingTime": "Qualifying: 31/08 - 05:10 (TL2)",
-        "sprintRaceTime": "Sprint Race: 31/08 - 10:00",
-        "mainRaceTime": "Main Race: 01/09 - 9:00"
+        "date": "Date: Sun, Sep 8",
+        "track": "Track: Misano World Circuit Marco Simoncelli",
+        "qualifyingTime": "Qualifying: 07/09 - 05:10 (TL2)",
+        "sprintRaceTime": "Sprint Race: 07/09 - 10:00",
+        "mainRaceTime": "Main Race: 08/09 - 09:00"
     },
     "f1": {
-        "date": "Date: Sun, Sep 1",
-        "track": "Track: Autodromo Nazionale Monza",
-        "qualifyingTime": "Qualifying: 31/08 - 11:00 (Q1)",
-        "sprintRaceTime": "Sprint Race: N/A",
-        "mainRaceTime": "Race: 01/09 - 10:00"
+        "date": "Date: Sun, Sep 15",
+        "track": "Track: Baku City Circuit",
+        "qualifyingTime": "Qualifying: 13/09 - 10:00 (Q1) / 14/09 - 05:30 (SQ1)",
+        "sprintRaceTime": "Sprint Race: 14/09 - 10:30",
+        "mainRaceTime": "Main Race: 15/09 - 08:00"
     },
     "wec": {
-        "date": "Date: Sun, Sep 1",
-        "track": "Track: Circuit of the Americas",
-        "qualifyingTime": "Qualifying: 31/08 - 17:00",
+        "date": "Date: Sun, Sep 14",
+        "track": "Track: Circuit of Fuji",
+        "qualifyingTime": "Qualifying: 14/09 - 02:20",
         "sprintRaceTime": "Sprint Race: N/A",
-        "mainRaceTime": "Race: 01/09 - 15:00"
+        "mainRaceTime": "Race: 14/09 - 23:00"
     },
     "wrc": {
         "date": "Date: Sep 5 to 8",
