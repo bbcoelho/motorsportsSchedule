@@ -9,36 +9,37 @@ self.addEventListener('message', (event) => {
 		self.skipWaiting()
 })
 
-// cache backend response on service worker install
-const urlsToCache = ["https://motorsportsschedule.onrender.com/"];
-self.addEventListener("install", event => {
-	event.waitUntil(
-		caches.open('pwa-urls')
-			.then(cache => {
-				return cache.addAll(urlsToCache);
-			})
-	);
-});
+// // cache backend response on service worker install
+// const urlsToCache = ["https://motorsportsschedule.onrender.com/"];
+// self.addEventListener("install", event => {
+// 	event.waitUntil(
+// 		caches.open('pwa-urls')
+// 			.then(cache => {
+// 				return cache.addAll(urlsToCache);
+// 			})
+// 	);
+// });
 
-self.addEventListener('fetch', event => {
-	event.respondWith(
-		caches.match(event.request).then(cachedResponse => {
-			const networkFetch = fetch(event.request).then(response => {
-				// update the cache with a clone of the network response
-				const responseClone = response.clone()
-				caches.open('pwa-urls').then(cache => {
-					cache.put(event.request, responseClone)
-				})
-				return response
-			}).catch(function (reason) {
-				console.error('ServiceWorker fetch failed: ', reason)
-			})
-			// prioritize cached response over network
-			return cachedResponse || networkFetch
-		}
-		)
-	)
-})
+// self.addEventListener('fetch', event => {
+// 	event.respondWith(
+// 		caches.match(event.request).then(cachedResponse => {
+// 			const networkFetch = fetch(event.request).then(response => {
+// 				// update the cache with a clone of the network response
+// 				const responseClone = response.clone();
+// 				caches.open('pwa-urls').then(cache => {
+// 					cache.put(event.request, responseClone);
+// 				});
+// 				return response;
+// 			}).catch(function (reason) {
+// 				console.error('ServiceWorker fetch failed: ', reason);
+// 				// return a fallback response or an empty response
+// 				return new Response('', { status: 500, statusText: 'ServiceWorker fetch failed' });
+// 			})
+// 			// prioritize cached response over network
+// 			return cachedResponse || networkFetch;
+// 		})
+// 	)
+// })
 
 // self.__WB_MANIFEST is the default injection point
 precacheAndRoute(self.__WB_MANIFEST)
