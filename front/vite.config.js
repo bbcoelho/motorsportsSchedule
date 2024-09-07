@@ -9,7 +9,24 @@ export default defineConfig({
     filename: 'sw.ts',
     registerType: 'autoUpdate',
     injectRegister: 'script',
-    
+
+    injectManifest: {
+      globPatterns: ['**/*.{js,css,html,svg,png,ico}'],
+    },
+
+    workbox: {
+      runtimeCaching: [{
+        urlPattern: "https://motorsportsschedule.onrender.com/",
+        handler: "CacheFirst",
+        options: {
+          cacheName: "api-cache",
+          cacheableResponse: {
+            statuses: [0, 200]
+          },
+        }
+      }]
+    },
+
     manifest: {
       name: 'Motorsports Schedule',
       short_name: 'MSS',
@@ -38,10 +55,6 @@ export default defineConfig({
           "purpose": "maskable"
         }
       ]
-    },
-
-    injectManifest: {
-      globPatterns: ['**/*.{js,css,html,svg,png,ico}'],
     },
 
     devOptions: {
