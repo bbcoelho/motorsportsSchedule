@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [VitePWA({
-    strategies: 'injectManifest',
+    strategies: 'generateSW',
     srcDir: 'src',
     filename: 'sw.ts',
     registerType: 'autoUpdate',
