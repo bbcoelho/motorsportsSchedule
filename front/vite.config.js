@@ -5,10 +5,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [VitePWA({
     strategies: 'generateSW',
-    srcDir: 'src',
-    filename: 'sw.ts',
     registerType: 'autoUpdate',
-    injectRegister: 'script',
 
     injectManifest: {
       globPatterns: ['**/*.{js,css,html,svg,png,ico}'],
