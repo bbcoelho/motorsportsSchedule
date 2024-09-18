@@ -1,27 +1,27 @@
 {
     "motoGP": {
-        "date": "TESTE: Manuzinha linda",
+        "date": "Date: Sun, Sep 22",
         "track": "Track: Misano World Circuit Marco Simoncelli",
-        "qualifyingTime": "Qualifying: 07/09 - 05:10 (TL2)",
-        "sprintRaceTime": "Sprint Race: 07/09 - 10:00",
-        "mainRaceTime": "Main Race: 08/09 - 09:00"
+        "qualifyingTime": "Qualifying: 21/09 - 05:10 (TL3)",
+        "sprintRaceTime": "Sprint Race: 21/09 - 10:00",
+        "mainRaceTime": "Main Race: 22/09 - 08:00"
     },
     "f1": {
-        "date": "Date: Sun, Sep 15",
-        "track": "Track: Baku City Circuit",
-        "qualifyingTime": "Qualifying: 13/09 - 10:00 (Q1) / 14/09 - 05:30 (SQ1)",
-        "sprintRaceTime": "Sprint Race: 14/09 - 10:30",
-        "mainRaceTime": "Main Race: 15/09 - 08:00"
+        "date": "Date: Sun, Sep 22",
+        "track": "Track: Marina Bay Street Circuit (Singapore)",
+        "qualifyingTime": "Qualifying: 21/09 - 10:00 (Q1)",
+        "sprintRaceTime": "Non-sprint race weekend",
+        "mainRaceTime": "Main Race: 22/09 - 09:00"
     },
     "wec": {
-        "date": "Date: Sun, Sep 14",
-        "track": "Track: Circuit of Fuji",
-        "qualifyingTime": "Qualifying: 14/09 - 02:20",
-        "sprintRaceTime": "Sprint Race: N/A",
-        "mainRaceTime": "Race: 14/09 - 23:00"
+        "date": "Date: Sat, Nov 2",
+        "track": "Track: Track of Bahrain",
+        "qualifyingTime": "Qualifying: 01/11 - 16:00",
+        "sprintRaceTime": "----",
+        "mainRaceTime": "Race: 02/11 - 14:00"
     },
     "wrc": {
-        "date": "Date: Sep 5 to 8",
-        "track": "WRC EKO Acropolis Rally Greece"
+        "date": "Date: Sep 26 to 29",
+        "track": "WRC Rally Chile Bio Bío"
     }
 }
