@@ -14,7 +14,7 @@ export default defineConfig({
     workbox: {
       runtimeCaching: [{
         urlPattern: "https://motorsportsschedule.onrender.com/",
-        handler: "CacheFirst",
+        handler: "StaleWhileRevalidate",
         options: {
           cacheName: "api-cache",
           cacheableResponse: {
