@@ -26,7 +26,7 @@ export default defineConfig({
 
     manifest: {
       name: 'Motorsports Schedule',
-      short_name: 'MSS',
+      short_name: '⏰',
       description: 'Motorsports events schedule all in one place',
       theme_color: '#3367D6',
       icons: [
