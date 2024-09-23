@@ -1,23 +1,22 @@
 {
     "motoGP": {
-        "date": "Date: Sun, Sep 22",
-        "track": "Track: Misano World Circuit Marco Simoncelli",
-        "qualifyingTime": "Qualifying: 21/09 - 05:10 (TL3)",
-        "sprintRaceTime": "Sprint Race: 21/09 - 10:00",
-        "mainRaceTime": "Main Race: 22/09 - 08:00"
+        "date": "Date: Sun, Sep 29 - GP of Indonesia",
+        "track": "Track: Pertamina Mandalika Circuit",
+        "qualifyingTime": "Qualifying: 27/09 - 23:10 (FP2)",
+        "sprintRaceTime": "Sprint Race: 28/09 - 04:00",
+        "mainRaceTime": "Main Race: 29/09 - 04:00"
     },
     "f1": {
-        "date": "Date: Sun, Sep 22",
-        "track": "Track: Marina Bay Street Circuit (Singapore)",
-        "qualifyingTime": "Qualifying: 21/09 - 10:00 (Q1)",
-        "sprintRaceTime": "Non-sprint race weekend",
-        "mainRaceTime": "Main Race: 22/09 - 09:00"
+        "date": "Date: Sun, Oct 20 - United States GP",
+        "track": "Track: Circuit of the Americas",
+        "qualifyingTime": "Qualifying: 18/10 - 18:00 (Q1) ** 19/10 - 14:30 (SQ1)",
+        "sprintRaceTime": "Sprint Race: 19/10 - 19:00",
+        "mainRaceTime": "Main Race: 20/10 - 16:00"
     },
     "wec": {
         "date": "Date: Sat, Nov 2",
         "track": "Track: Track of Bahrain",
         "qualifyingTime": "Qualifying: 01/11 - 16:00",
-        "sprintRaceTime": "Sprint Race: ----",
         "mainRaceTime": "Race: 02/11 - 14:00"
     },
     "wrc": {
