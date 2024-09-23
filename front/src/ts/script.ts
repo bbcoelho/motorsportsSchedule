@@ -82,10 +82,6 @@ function setData(content: EventsData): void {
     if (element && content.wec.qualifyingTime) {
         element.textContent = content.wec.qualifyingTime;
     }
-    element = document.getElementById('wecSprintRaceTime');
-    if (element && content.wec.sprintRaceTime) {
-        element.textContent = content.wec.sprintRaceTime;
-    }
     element = document.getElementById('wecMainRaceTime');
     if (element && content.wec.mainRaceTime) {
         element.textContent = content.wec.mainRaceTime;
