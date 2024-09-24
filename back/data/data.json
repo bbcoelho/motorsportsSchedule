@@ -9,7 +9,7 @@
     "f1": {
         "date": "Date: Sun, Oct 20 - United States GP",
         "track": "Track: Circuit of the Americas",
-        "qualifyingTime": "Qualifying: 18/10 - 18:00 (Q1) ** 19/10 - 14:30 (SQ1)",
+        "qualifyingTime": "Qualifying: 18/10 - 18:00 (Q1) \n-----------> 19/10 - 14:30 (SQ1)",
         "sprintRaceTime": "Sprint Race: 19/10 - 19:00",
         "mainRaceTime": "Main Race: 20/10 - 16:00"
     },
