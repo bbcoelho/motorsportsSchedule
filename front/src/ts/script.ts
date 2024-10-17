@@ -69,6 +69,28 @@ function setData(content: EventsData): void {
         element.textContent = content.f1.mainRaceTime;
     }
 
+    // F2
+    element = document.getElementById('f2Date');
+    if (element) {
+        element.textContent = content.f2.date;
+    }
+    element = document.getElementById('f2Track');
+    if (element) {
+        element.textContent = content.f2.track;
+    }
+    element = document.getElementById('f2QualyTime');
+    if (element && content.f2.qualifyingTime) {
+        element.textContent = content.f2.qualifyingTime;
+    }
+    element = document.getElementById('f2SprintRaceTime');
+    if (element && content.f2.sprintRaceTime) {
+        element.textContent = content.f2.sprintRaceTime;
+    }
+    element = document.getElementById('f2MainRaceTime');
+    if (element && content.f2.mainRaceTime) {
+        element.textContent = content.f2.mainRaceTime;
+    }
+
     // WEC
     element = document.getElementById('wecDate');
     if (element) {
@@ -85,15 +107,5 @@ function setData(content: EventsData): void {
     element = document.getElementById('wecMainRaceTime');
     if (element && content.wec.mainRaceTime) {
         element.textContent = content.wec.mainRaceTime;
-    }
-
-    // WRC
-    element = document.getElementById('wrcDate');
-    if (element) {
-        element.textContent = content.wrc.date;
-    }
-    element = document.getElementById('wrcTrack');
-    if (element) {
-        element.textContent = content.wrc.track;
     }
 }
