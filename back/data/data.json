@@ -1,10 +1,10 @@
 {
     "motoGP": {
-        "date": "Date: Sun, Oct 06 - GP of Japan",
-        "track": "Track: Twin Ring Motegi",
-        "qualifyingTime": "Qualifying: 04/10 - 22:10 (FP2)",
-        "sprintRaceTime": "Sprint Race: 05/10 - 03:00",
-        "mainRaceTime": "Main Race: 06/10 - 02:00"
+        "date": "Date: Sun, Oct 20 - Australian Motorcycle GP",
+        "track": "Track: Phillip Island Circuit",
+        "qualifyingTime": "Qualifying: 18/10 - 20:10 (FP2)",
+        "sprintRaceTime": "Sprint Race: 19/10 - 01:00",
+        "mainRaceTime": "Main Race: 20/10 - 00:00"
     },
     "f1": {
         "date": "Date: Sun, Oct 20 - United States GP",
@@ -13,14 +13,17 @@
         "sprintRaceTime": "Sprint Race: 19/10 - 19:00",
         "mainRaceTime": "Main Race: 20/10 - 16:00"
     },
+    "f2": {
+        "date": "Date: Sun, Dec 01 - Qatar GP",
+        "track": "Track: Lusail International Circuit",
+        "qualifyingTime": "Not available",
+        "sprintRaceTime": "Not available",
+        "mainRaceTime": "Not available"
+    },
     "wec": {
         "date": "Date: Sat, Nov 2",
         "track": "Track: Track of Bahrain",
         "qualifyingTime": "Qualifying: 01/11 - 16:00",
         "mainRaceTime": "Race: 02/11 - 14:00"
-    },
-    "wrc": {
-        "date": "Date: Sep 26 to 29",
-        "track": "WRC Rally Chile Bio Bío"
     }
 }
