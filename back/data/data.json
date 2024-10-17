@@ -16,9 +16,9 @@
     "f2": {
         "date": "Date: Sun, Dec 01 - Qatar GP",
         "track": "Track: Lusail International Circuit",
-        "qualifyingTime": "Not available",
-        "sprintRaceTime": "Not available",
-        "mainRaceTime": "Not available"
+        "qualifyingTime": "Qualifying: NOT AVAILABLE",
+        "sprintRaceTime": "Sprint Race: NOT AVAILABLE",
+        "mainRaceTime": "Main Race: NOT AVAILABLE"
     },
     "wec": {
         "date": "Date: Sat, Nov 2",
