@@ -1,17 +1,17 @@
 {
     "motoGP": {
-        "date": "Date: Sun, Oct 27 - GP of Thailand",
-        "track": "Track: Chang International Circuit",
-        "qualifyingTime": "Qualifying: 26/10 - 00:10 (FP2)",
-        "sprintRaceTime": "Sprint Race: 26/10 - 05:00",
-        "mainRaceTime": "Main Race: 27/10 - 05:00"
+        "date": "Date: Sun, Nov 03 - GP of Malaysia",
+        "track": "Track: Sepang International Circuit",
+        "qualifyingTime": "Qualifying: 01/11 - 23:10 (FP2)",
+        "sprintRaceTime": "Sprint Race: 02/11 - 04:00",
+        "mainRaceTime": "Main Race: 03/11 - 04:00"
     },
     "f1": {
-        "date": "Date: Sun, Oct 27 - GP de la Ciudad de México",
-        "track": "Track: Autódromo Hermanos Rodríguez",
-        "qualifyingTime": "Qualifying: 26/10 - 18:00 (Q1)",
-        "sprintRaceTime": "Sprint Race: ---",
-        "mainRaceTime": "Main Race: 27/10 - 17:00"
+        "date": "Date: Sun, Nov 03 - GP de São Paulo",
+        "track": "Track: Autódromo de Interlagos",
+        "qualifyingTime": "Quali: SQ1: 01/11 - 15:30  /  Q1: 02/11 - 15:00",
+        "sprintRaceTime": "Sprint Race: 02/11 - 11:00",
+        "mainRaceTime": "Main Race: 03/11 - 14:00"
     },
     "f2": {
         "date": "Date: Sun, Dec 01 - Qatar GP",
