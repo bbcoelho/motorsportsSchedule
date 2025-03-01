@@ -1,29 +1,29 @@
 {
     "motoGP": {
-        "date": "Date: Sun, Nov 17 - GP of Barcelona",
-        "track": "Track: Circuit de Barcelona-Catalunya",
-        "qualifyingTime": "Qualifying: 16/11 - 06:10 (FP2)",
-        "sprintRaceTime": "Sprint Race: 16/11 - 11:00",
-        "mainRaceTime": "Main Race: 17/11 - 10:00"
+        "date": "Date: Sun, Mar 2 - GP of Thailand",
+        "track": "Track: Chang International Circuit",
+        "qualifyingTime": "Qualifying: 01/03 - 0:50 (FP2)",
+        "sprintRaceTime": "Sprint Race: 01/03 - 05:00",
+        "mainRaceTime": "Main Race: 02/03 - 05:00"
     },
     "f1": {
-        "date": "Date: Sun, Dec 8 - Abu Dhabi GP",
-        "track": "Track: Yas Marina Circuit",
-        "qualifyingTime": "Qualifying: 07/12 - 11:00",
+        "date": "Date: Sun, Mar 16 - Australian GP",
+        "track": "Track: Melbourne Grand Prix Circuit",
+        "qualifyingTime": "Qualifying: 15/03 - 02:00",
         "sprintRaceTime": "Sprint Race: -----",
-        "mainRaceTime": "Main Race: 08/12 - 10:00"
+        "mainRaceTime": "Main Race: 16/03 - 01:00"
     },
     "f2": {
-        "date": "Date: Sun, Dec 01 - Qatar GP",
-        "track": "Track: Lusail International Circuit",
+        "date": "Date: Sun, Mar 16 - Australian GP",
+        "track": "Track: Melbourne Grand Prix Circuit",
         "qualifyingTime": "Qualifying: NOT AVAILABLE",
         "sprintRaceTime": "Sprint Race: NOT AVAILABLE",
         "mainRaceTime": "Main Race: NOT AVAILABLE"
     },
     "wec": {
-        "date": "Date: Sat, Nov 2",
-        "track": "Track: Track of Bahrain",
-        "qualifyingTime": "Qualifying: 01/11 - 16:00",
-        "mainRaceTime": "Race: 02/11 - 14:00"
+        "date": "Date: Sat, Apr 20",
+        "track": "Track: 6 Hours of Imola",
+        "qualifyingTime": "Qualifying: NOT AVAILABLE",
+        "mainRaceTime": "Main Race: NOT AVAILABLE"
     }
 }
