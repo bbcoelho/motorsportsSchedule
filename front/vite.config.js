@@ -28,7 +28,7 @@ export default defineConfig({
       name: 'Motorsports Schedule',
       short_name: '⏰',
       description: 'Motorsports events schedule all in one place',
-      theme_color: '#e21616',
+      theme_color: '#c70027',
       icons: [
         {
           "src": "pwa-64x64.png",
