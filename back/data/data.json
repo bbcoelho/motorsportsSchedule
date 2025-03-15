@@ -1,10 +1,10 @@
 {
     "motoGP": {
-        "date": "Date: Sun, Mar 2 - GP of Thailand",
-        "track": "Track: Chang International Circuit",
-        "qualifyingTime": "Qualifying: 01/03 - 0:50 (FP2)",
-        "sprintRaceTime": "Sprint Race: 01/03 - 05:00",
-        "mainRaceTime": "Main Race: 02/03 - 05:00"
+        "date": "Date: Sun, Mar 16 - Argentina GP",
+        "track": "Track: Termas de Río Hondo",
+        "qualifyingTime": "Qualifying: 15/03 - 10:50",
+        "sprintRaceTime": "Sprint Race: 15/03 - 15:00",
+        "mainRaceTime": "Main Race: 16/03 - 15:00"
     },
     "f1": {
         "date": "Date: Sun, Mar 16 - Australian GP",
