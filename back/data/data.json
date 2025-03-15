@@ -16,9 +16,9 @@
     "f2": {
         "date": "Date: Sun, Mar 16 - Australian GP",
          "track": "Track: Melbourne Grand Prix Circuit",
-        "qualifyingTime": "Qualifying: NOT AVAILABLE",
-        "sprintRaceTime": "Sprint Race: NOT AVAILABLE",
-        "mainRaceTime": "Main Race: NOT AVAILABLE"
+        "qualifyingTime": "Qualifying: 14/03 - 03:30",
+        "sprintRaceTime": "Sprint 15/03, 00h15",
+        "mainRaceTime": "Main Race: 15/03, 21h30"
     },
     "wec": {
         "date": "Date: Sat, Apr 20",
