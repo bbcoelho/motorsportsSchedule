@@ -1,29 +1,29 @@
 {
     "motoGP": {
-        "date": "Date: Sun, Mar 16 - Argentina GP",
-        "track": "Track: Termas de Río Hondo",
-        "qualifyingTime": "Qualifying: 15/03 - 10:50",
-        "sprintRaceTime": "Sprint Race: 15/03 - 15:00",
-        "mainRaceTime": "Main Race: 16/03 - 15:00"
+        "date": "Date: Sun, May 11 - GP of France",
+        "track": "Track: Le Mans",
+        "qualifyingTime": "Qualifying: 10/05 - 05:50",
+        "sprintRaceTime": "Sprint Race: 10/05 - 10:00",
+        "mainRaceTime": "Main Race: 11/05 - 09:00"
     },
     "f1": {
-        "date": "Date: Sun, Mar 16 - Australian GP",
-         "track": "Track: Melbourne Grand Prix Circuit",
-         "qualifyingTime": "Qualifying: 15/03 - 02:00",
+        "date": "Date: Sun, May 18 - Emilia-Romagna GP",
+         "track": "Track: Autodromo Enzo e Dino Ferrari",
+         "qualifyingTime": "Qualifying: 17/05 - 11:00",
         "sprintRaceTime": "Sprint Race: -----",
-        "mainRaceTime": "Main Race: 16/03 - 01:00"
+        "mainRaceTime": "Main Race: 18/05 - 10:00"
     },
     "f2": {
-        "date": "Date: Sun, Mar 16 - Australian GP",
-         "track": "Track: Melbourne Grand Prix Circuit",
-        "qualifyingTime": "Qualifying: 14/03 - 03:30",
-        "sprintRaceTime": "Sprint 15/03, 00h15",
-        "mainRaceTime": "Main Race: 15/03, 21h30"
+        "date": "Date: Sun, May 18 - Emilia-Romagna GP",
+         "track": "Track: Autodromo Enzo e Dino Ferrari",
+        "qualifyingTime": "Qualifying: 16/05 - 11:00",
+        "sprintRaceTime": "Sprint Race: 17/05, 09h15",
+        "mainRaceTime": "Main Race: 18/05 - 05:00"
     },
     "wec": {
-        "date": "Date: Sat, Apr 20",
-         "track": "Track: 6 Hours of Imola",
-         "qualifyingTime": "Qualifying: NOT AVAILABLE",
-         "mainRaceTime": "Main Race: NOT AVAILABLE"
+        "date": "Date: Sat, May 10",
+         "track": "6 Hours of Spa-Francorchamps",
+         "qualifyingTime": "Qualifying: 09/05 - 09:40",
+         "mainRaceTime": "Main Race: 10/05 - 09:00"
     }
 }
