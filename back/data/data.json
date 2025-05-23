@@ -1,29 +1,29 @@
 {
     "motoGP": {
-        "date": "Date: Sun, May 11 - GP of France",
-        "track": "Track: Le Mans",
-        "qualifyingTime": "Qualifying: 10/05 - 05:50",
-        "sprintRaceTime": "Sprint Race: 10/05 - 10:00",
-        "mainRaceTime": "Main Race: 11/05 - 09:00"
+        "date": "Date: Sun, May 25 - GP of United Kingdom",
+        "track": "Track: Silverstone Circuit",
+        "qualifyingTime": "Qualifying: 24/05 - 07:50",
+        "sprintRaceTime": "Sprint Race: 24/05 - 12:00",
+        "mainRaceTime": "Main Race: 25/05 - 09:00"
     },
     "f1": {
-        "date": "Date: Sun, May 18 - Emilia-Romagna GP",
-         "track": "Track: Autodromo Enzo e Dino Ferrari",
-         "qualifyingTime": "Qualifying: 17/05 - 11:00",
+        "date": "Date: Sun, May 25 - GP of Monaco",
+         "track": "Track: Circuit de Monaco",
+         "qualifyingTime": "Qualifying: 24/05 - 11:00",
         "sprintRaceTime": "Sprint Race: -----",
-        "mainRaceTime": "Main Race: 18/05 - 10:00"
+        "mainRaceTime": "Main Race: 25/05 - 10:00"
     },
     "f2": {
-        "date": "Date: Sun, May 18 - Emilia-Romagna GP",
-         "track": "Track: Autodromo Enzo e Dino Ferrari",
-        "qualifyingTime": "Qualifying: 16/05 - 11:00",
-        "sprintRaceTime": "Sprint Race: 17/05, 09h15",
-        "mainRaceTime": "Main Race: 18/05 - 05:00"
+        "date": "Date: Sun, May 25 - GP of Monaco",
+         "track": "Track: Circuit de Monaco",
+        "qualifyingTime": "Qualifying: 23/05 - 10:10",
+        "sprintRaceTime": "Sprint Race: 24/05, 09:15",
+        "mainRaceTime": "Main Race: 25/05 - 04:40"
     },
     "wec": {
-        "date": "Date: Sat, May 10",
-         "track": "6 Hours of Spa-Francorchamps",
-         "qualifyingTime": "Qualifying: 09/05 - 09:40",
-         "mainRaceTime": "Main Race: 10/05 - 09:00"
+        "date": "Date: Sat, Jun 14",
+         "track": "24 Hours of Le Mans",
+         "qualifyingTime": "Qualifying: 12/06 - 16:05",
+         "mainRaceTime": "Main Race: 14/06 - 11:00"
     }
 }
