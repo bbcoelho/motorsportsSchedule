@@ -1,0 +1,12 @@
+- Add F2 and WSBK schedules
+
+- change DEV scripts to build and preview
+- change icon
+
+- add Id and screenshots to manifest.json
+- HTML semantic elements and acessibility
+
+- Refact to use elementIdPrefix
+- Refact to interate over html elements
+
+- Push notifications before races
