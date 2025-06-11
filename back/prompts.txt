@@ -1,0 +1,13 @@
+PROMPT TO UPDATE RACES DATA:
+
+MOTOGP:
+
+Search the web looking for information about the next MotoGP race and update the motoGP data of this JSON file. Times must be in Brazilian time, not track time, convert it if needed. Bellow is the example of the data from the last Grand Prix, the Italian GP. Use this example to reach your goal.
+
+    "motoGP": {
+        "date": "Date: Sun, Jun 22 - Italian GP",
+        "track": "Track: Autodromo Internazionale del Mugello",
+        "qualifyingTime": "Qualifying: 21/06 - 05:50",
+        "sprintRaceTime": "Sprint Race: 21/06 - 10:00",
+        "mainRaceTime": "Main Race: 22/06 - 09:00"
+    }
