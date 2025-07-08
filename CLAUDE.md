@@ -67,6 +67,66 @@ type EventsData = {
 - No frameworks used for DOM manipulation - plain TypeScript with direct element access
 - All race data updates happen in `setData()` function in `front/src/ts/script.ts`
 
+## Custom Slash Commands
+
+### /update-races
+When the user types `/update-races`, perform the following steps:
+1. Use WebSearch tool to find the next upcoming race information for:
+   - MotoGP: Search for "next MotoGP race 2025 schedule qualifying sprint main race times"
+   - Formula 1: Search for "next Formula 1 race 2025 schedule qualifying sprint main race times"  
+   - Formula 2: Search for "next Formula 2 race 2025 schedule qualifying sprint main race times"
+   - WEC: Search for "next WEC World Endurance Championship race 2025 schedule qualifying main race times"
+
+2. Extract the following information for each category:
+   - Race date and name
+   - Track/circuit name
+   - Qualifying time
+   - Sprint race time (if applicable, use "------" if not)
+   - Main race time
+
+3. Format the data according to the existing structure in `back/data/data.json`
+
+4. Use the Edit tool to update `back/data/data.json` with the new race information
+
+5. Confirm the update was successful
+
+**IMPORTANT**: Web search results are often inaccurate or incomplete. Always verify information from multiple sources and cross-reference with official websites. If uncertain about timing details, use "TBC" (To Be Confirmed) rather than incorrect information.
+
+**Reference Example (July 2025):**
+```json
+{
+    "motoGP": {
+        "date": "Date: Sun, Jul 13 - German GP",
+        "track": "Track: Sachsenring",
+        "qualifyingTime": "Qualifying: 12/07 - 05:50",
+        "sprintRaceTime": "Sprint Race: 12/07 - 10:00",
+        "mainRaceTime": "Main Race: 13/07 - 09:00"
+    },
+    "f1": {
+        "date": "Date: Sun, Jul 27 - Belgian GP",
+        "track": "Track: Spa-Francorchamps",
+        "qualifyingTime": "Qualifying: 26/07 - 11:00",
+        "sprintRaceTime": "Sprint Race: 26/07 - 17:00",
+        "mainRaceTime": "Main Race: 27/07 - 10:00"
+    },
+    "f2": {
+        "date": "Date: Sun, Jul 27 - Belgian GP",
+        "track": "Track: Spa-Francorchamps",
+        "qualifyingTime": "Qualifying: 25/07 - TBC",
+        "sprintRaceTime": "Sprint Race: 26/07 - TBC",
+        "mainRaceTime": "Main Race: 27/07 - TBC"
+    },
+    "wec": {
+        "date": "Date: Sun, Jul 13",
+        "track": "6 Hours of São Paulo",
+        "qualifyingTime": "Qualifying: 12/07 - 14:45",
+        "mainRaceTime": "Main Race: 13/07 - 11:30"
+    }
+}
+```
+
+This command allows automatic updating of race schedules without manual data entry.
+
 ## Planned Improvements (from TODOS.txt)
 
 - Add F2 and WSBK schedules
