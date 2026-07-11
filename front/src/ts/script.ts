@@ -1,4 +1,13 @@
+import { registerSW } from "virtual:pwa-register";
 import { EventsData } from "./types";
+
+// Reloads the app when a new precached version is ready.
+const updateServiceWorker = registerSW({
+	immediate: true,
+	onNeedRefresh() {
+		void updateServiceWorker(true);
+	},
+});
 
 document.addEventListener('DOMContentLoaded', async function () {
     // URL of the JSON file: DEV or Prod
