@@ -1,21 +1,54 @@
+:root {
+	--color-brand: #c70027;
+	--color-background: #fff5f7;
+	--color-surface: #ffffff;
+	--color-text: #2f0b13;
+	--color-muted: #6d4b52;
+	--color-border: #f0c2cb;
+}
+
 body {
-    background-color: #f0f0f0;
-    /* Sets a light gray background color */
-    color: #333;
-    /* Sets the text color to dark gray */
-    font-family: Arial, sans-serif;
-    /* Changes the font to Arial */
+	background-color: var(--color-background);
+	color: var(--color-text);
+	font-family: Arial, sans-serif;
+	margin: 0;
 }
 
 header,
 footer {
-    text-align: center;
+	text-align: center;
+}
+
+h1,
+h2,
+h3 {
+	color: var(--color-brand);
+}
+
+main {
+	margin: 0 auto;
+	max-width: 720px;
+	padding: 0 16px;
 }
 
 main section {
-    margin-left: 10px;
+	background-color: var(--color-surface);
+	border-left: 4px solid var(--color-brand);
+	border-radius: 8px;
+	box-shadow: 0 1px 8px rgba(47, 11, 19, 0.08);
+	margin: 16px 0;
+	padding: 8px 16px;
 }
 
 ul li:not(:last-child) {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+a {
+	color: var(--color-brand);
+}
+
+footer {
+	color: var(--color-muted);
+	padding: 16px;
 }
