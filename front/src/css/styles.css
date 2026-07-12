@@ -14,6 +14,20 @@ body {
 	margin: 0;
 }
 
+body > header {
+	background-color: var(--color-brand);
+	box-shadow: 0 2px 12px rgba(47, 11, 19, 0.18);
+	padding: calc(12px + env(safe-area-inset-top, 0px)) 16px 12px;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+body > header h1 {
+	color: var(--color-surface);
+	margin: 0;
+}
+
 header,
 footer {
 	text-align: center;
