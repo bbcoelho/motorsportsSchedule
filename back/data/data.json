@@ -1,10 +1,10 @@
 {
 	"motoGP": {
-		"date": "Date: Sun, Jul 12 - German GP",
-		"track": "Track: Sachsenring",
-		"qualifyingTime": "Qualifying: 11/07 - 05:50",
-		"sprintRaceTime": "Sprint Race: 11/07 - 10:00",
-		"mainRaceTime": "Main Race: 12/07 - 09:00"
+		"date": "Date: Sun, Aug 9 - British GP",
+		"track": "Track: Silverstone Circuit",
+		"qualifyingTime": "Qualifying: 08/08 - 07:50",
+		"sprintRaceTime": "Sprint Race: 08/08 - 12:00",
+		"mainRaceTime": "Main Race: 09/08 - 09:00"
 	},
 	"f1": {
 		"date": "Date: Sun, Jul 19 - Belgian GP",
@@ -15,14 +15,14 @@
 	"f2": {
 		"date": "Date: Sun, Jul 19 - Belgian GP",
 		"track": "Track: Spa-Francorchamps",
-		"qualifyingTime": "Qualifying: 17/07 - TBC",
-		"sprintRaceTime": "Sprint Race: 18/07 - TBC",
-		"mainRaceTime": "Feature Race: 19/07 - TBC"
+		"qualifyingTime": "Qualifying: 17/07 - 11:00",
+		"sprintRaceTime": "Sprint Race: 18/07 - 09:15",
+		"mainRaceTime": "Feature Race: 19/07 - 05:00"
 	},
 	"wec": {
-		"date": "Date: Sun, Jul 12 - Rolex 6 Hours of Sao Paulo",
-		"track": "Track: Autodromo Jose Carlos Pace",
-		"qualifyingTime": "Qualifying: 11/07 - 14:30",
-		"mainRaceTime": "Main Race: 12/07 - 11:30"
+		"date": "Date: Sun, Sep 6 - Lone Star Le Mans",
+		"track": "Track: Circuit of the Americas",
+		"qualifyingTime": "Qualifying: 05/09 - TBC",
+		"mainRaceTime": "Main Race: 06/09 - TBC"
 	}
 }
