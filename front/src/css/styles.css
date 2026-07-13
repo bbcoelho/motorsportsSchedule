@@ -7,21 +7,14 @@
 	--color-text: #384757;
 	--color-muted: #81443e;
 	--color-border: #f3c5bf;
-	--top-bounce-background-height: calc(72px + env(safe-area-inset-top, 0px));
 }
 
 html {
-	background: linear-gradient(
-		to bottom,
-		var(--color-brand) 0,
-		var(--color-brand) var(--top-bounce-background-height),
-		var(--color-background) var(--top-bounce-background-height),
-		var(--color-background) 100%
-	) fixed;
+	background-color: var(--color-brand);
 }
 
 body {
-	background: transparent;
+	background-color: var(--color-background);
 	color: var(--color-text);
 	font-family: Arial, sans-serif;
 	margin: 0;
