@@ -9,6 +9,7 @@
 - [x] Step 5: Hide optional session rows when data is absent.
 - [x] Step 6: Run final build verification and mark the plan complete.
 - [x] Follow-up: Remove redundant per-card `Next ... event` headings.
+- [x] Follow-up: Remove repeated display labels from schedule JSON values.
 
 Final verification: `npm run build` passed in `front`.
 
