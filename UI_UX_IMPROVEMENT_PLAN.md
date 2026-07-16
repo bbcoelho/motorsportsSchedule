@@ -7,7 +7,9 @@
 - [x] Step 3: Style event cards, session rows, and TBC badges.
 - [x] Step 4: Add loading and error UI states.
 - [x] Step 5: Hide optional session rows when data is absent.
-- [ ] Step 6: Run final build verification and mark the plan complete.
+- [x] Step 6: Run final build verification and mark the plan complete.
+
+Final verification: `npm run build` passed in `front`.
 
 ## Highest Impact Improvements
 
