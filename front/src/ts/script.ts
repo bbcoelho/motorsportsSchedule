@@ -10,27 +10,25 @@ const updateServiceWorker = registerSW({
 });
 
 document.addEventListener('DOMContentLoaded', async function () {
-    // URL of the JSON file: DEV or Prod
-    // const url = 'http://127.0.0.1:3000';
-    const url = 'https://motorsportsschedule.onrender.com';
+	// URL of the JSON file: DEV or Prod
+	// const url = 'http://127.0.0.1:3000';
+	const url = 'https://motorsportsschedule.onrender.com';
 
-    // Fetch the JSON file
-    let content: EventsData | undefined = undefined;
+	try {
+		// Fetch and render the schedule data.
+		const response = await fetch(url);
 
-    await fetch(url)
-        .then((response) => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json(); // Parse the JSON response
-        })
-        .then((data) => {
-            content = data as EventsData;
-            setData(content);
-        })
-        .catch(error => {
-            console.error('There was a problem with the fetch operation:', error);
-        });
+		if (!response.ok) {
+			throw new Error(`HTTP error! status: ${response.status}`);
+		}
+
+		const content = await response.json() as EventsData;
+		setData(content);
+		setStatus();
+	} catch (error) {
+		console.error('There was a problem with the fetch operation:', error);
+		setStatus('Could not load schedule. Try again later.', true);
+	}
 });
 
 function setData(content: EventsData): void {
@@ -72,4 +70,17 @@ function setText(id: string, value?: string): void {
 	// Apply content and flag uncertain times for badge styling.
 	element.textContent = value;
 	element.classList.toggle('is-tbc', value.includes('TBC'));
+}
+
+function setStatus(message?: string, isError = false): void {
+	const element = document.getElementById('scheduleStatus');
+
+	if (!element) {
+		return;
+	}
+
+	// Show only actionable loading or error status text.
+	element.hidden = !message;
+	element.textContent = message ?? '';
+	element.classList.toggle('schedule-status--error', isError);
 }
