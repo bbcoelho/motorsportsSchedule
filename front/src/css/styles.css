@@ -51,8 +51,7 @@ footer {
 }
 
 h1,
-h2,
-h3 {
+h2 {
 	color: var(--color-text);
 }
 
@@ -170,16 +169,6 @@ main {
 	margin: 0;
 	padding: 7px 10px;
 	text-transform: uppercase;
-}
-
-.event-card h3 {
-	color: #172033;
-	font-size: clamp(1.3rem, 3vw, 1.75rem);
-	letter-spacing: -0.05em;
-	line-height: 1;
-	margin: 0;
-	max-width: 14rem;
-	text-align: right;
 }
 
 .event-card__details {

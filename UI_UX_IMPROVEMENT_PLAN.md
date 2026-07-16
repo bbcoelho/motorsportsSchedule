@@ -8,6 +8,7 @@
 - [x] Step 4: Add loading and error UI states.
 - [x] Step 5: Hide optional session rows when data is absent.
 - [x] Step 6: Run final build verification and mark the plan complete.
+- [x] Follow-up: Remove redundant per-card `Next ... event` headings.
 
 Final verification: `npm run build` passed in `front`.
 
