@@ -27,52 +27,124 @@
 	</header>
 
 	<main>
-		<header>
-			<h2>Next events (brazilian time):</h2>
+		<header class="schedule-header">
+			<h2>Next events</h2>
+			<p>Times in Sao Paulo, Brazil</p>
 		</header>
 		
-		<section>
-			<h3>motoGP:</h3>
-			<ul>
-				<li id="motoGPDate"></li>
-				<li id="motoGPTrack"></li>
-				<li id="motoGPQualyTime"></li>
-				<li id="motoGPSprintRaceTime"></li>
-				<li id="motoGPMainRaceTime"></li>
-			</ul>
-		</section>
+		<div class="schedule-grid">
+			<article class="event-card event-card--motogp" aria-labelledby="motoGPTitle">
+				<header class="event-card__header">
+					<p class="event-card__series">MotoGP</p>
+					<h3 id="motoGPTitle">Next MotoGP event</h3>
+				</header>
+				<dl class="event-card__details">
+					<div class="event-card__detail">
+						<dt>Date</dt>
+						<dd id="motoGPDate"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Track</dt>
+						<dd id="motoGPTrack"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Qualifying</dt>
+						<dd id="motoGPQualyTime"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Sprint Race</dt>
+						<dd id="motoGPSprintRaceTime"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Main Race</dt>
+						<dd id="motoGPMainRaceTime"></dd>
+					</div>
+				</dl>
+			</article>
 
-		<section>
-			<h3>F1:</h3>
-			<ul>
-				<li id="f1Date"></li>
-				<li id="f1Track"></li>
-				<li id="f1QualyTime"></li>
-				<li id="f1SprintRaceTime"></li>
-				<li id="f1MainRaceTime"></li>
-			</ul>
-		</section>
+			<article class="event-card event-card--f1" aria-labelledby="f1Title">
+				<header class="event-card__header">
+					<p class="event-card__series">F1</p>
+					<h3 id="f1Title">Next Formula 1 event</h3>
+				</header>
+				<dl class="event-card__details">
+					<div class="event-card__detail">
+						<dt>Date</dt>
+						<dd id="f1Date"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Track</dt>
+						<dd id="f1Track"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Qualifying</dt>
+						<dd id="f1QualyTime"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Sprint Race</dt>
+						<dd id="f1SprintRaceTime"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Main Race</dt>
+						<dd id="f1MainRaceTime"></dd>
+					</div>
+				</dl>
+			</article>
 
-		<section>
-			<h3>F2:</h3>
-			<ul>
-				<li id="f2Date"></li>
-				<li id="f2Track"></li>
-				<li id="f2QualyTime"></li>
-				<li id="f2SprintRaceTime"></li>
-				<li id="f2MainRaceTime"></li>
-			</ul>
-		</section>
+			<article class="event-card event-card--f2" aria-labelledby="f2Title">
+				<header class="event-card__header">
+					<p class="event-card__series">F2</p>
+					<h3 id="f2Title">Next Formula 2 event</h3>
+				</header>
+				<dl class="event-card__details">
+					<div class="event-card__detail">
+						<dt>Date</dt>
+						<dd id="f2Date"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Track</dt>
+						<dd id="f2Track"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Qualifying</dt>
+						<dd id="f2QualyTime"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Sprint Race</dt>
+						<dd id="f2SprintRaceTime"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Feature Race</dt>
+						<dd id="f2MainRaceTime"></dd>
+					</div>
+				</dl>
+			</article>
 
-		<section>
-			<h3>WEC:</h3>
-			<ul>
-				<li id="wecDate"></li>
-				<li id="wecTrack"></li>
-				<li id="wecQualyTime"></li>
-				<li id="wecMainRaceTime"></li>
-			</ul>
-		</section>
+			<article class="event-card event-card--wec" aria-labelledby="wecTitle">
+				<header class="event-card__header">
+					<p class="event-card__series">WEC</p>
+					<h3 id="wecTitle">Next WEC event</h3>
+				</header>
+				<dl class="event-card__details">
+					<div class="event-card__detail">
+						<dt>Date</dt>
+						<dd id="wecDate"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Track</dt>
+						<dd id="wecTrack"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Qualifying</dt>
+						<dd id="wecQualyTime"></dd>
+					</div>
+					<div class="event-card__detail">
+						<dt>Main Race</dt>
+						<dd id="wecMainRaceTime"></dd>
+					</div>
+				</dl>
+			</article>
+		</div>
 
 	</main>
 
