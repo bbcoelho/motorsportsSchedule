@@ -4,7 +4,7 @@
 
 - [x] Step 1: Add semantic card markup while preserving existing data IDs.
 - [x] Step 2: Refresh base visual theme and responsive page shell.
-- [ ] Step 3: Style event cards, session rows, and TBC badges.
+- [x] Step 3: Style event cards, session rows, and TBC badges.
 - [ ] Step 4: Add loading and error UI states.
 - [ ] Step 5: Hide optional session rows when data is absent.
 - [ ] Step 6: Run final build verification and mark the plan complete.

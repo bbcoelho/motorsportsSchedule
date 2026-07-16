@@ -34,87 +34,42 @@ document.addEventListener('DOMContentLoaded', async function () {
 });
 
 function setData(content: EventsData): void {
-    // MotoGP
-    let element = document.getElementById('motoGPDate');
-    if (element) {
-        element.textContent = content.motoGP.date;
-    }
-    element = document.getElementById('motoGPTrack');
-    if (element) {
-        element.textContent = content.motoGP.track;
-    }
-    element = document.getElementById('motoGPQualyTime');
-    if (element && content.motoGP.qualifyingTime) {
-        element.textContent = content.motoGP.qualifyingTime;
-    }
-    element = document.getElementById('motoGPSprintRaceTime');
-    if (element && content.motoGP.sprintRaceTime) {
-        element.textContent = content.motoGP.sprintRaceTime;
-    }
-    element = document.getElementById('motoGPMainRaceTime');
-    if (element && content.motoGP.mainRaceTime) {
-        element.textContent = content.motoGP.mainRaceTime;
-    }
+	// MotoGP
+	setText('motoGPDate', content.motoGP.date);
+	setText('motoGPTrack', content.motoGP.track);
+	setText('motoGPQualyTime', content.motoGP.qualifyingTime);
+	setText('motoGPSprintRaceTime', content.motoGP.sprintRaceTime);
+	setText('motoGPMainRaceTime', content.motoGP.mainRaceTime);
 
-    // F1
-    element = document.getElementById('f1Date');
-    if (element) {
-        element.textContent = content.f1.date;
-    }
-    element = document.getElementById('f1Track');
-    if (element) {
-        element.textContent = content.f1.track;
-    }
-    element = document.getElementById('f1QualyTime');
-    if (element && content.f1.qualifyingTime) {
-        element.textContent = content.f1.qualifyingTime;
-    }
-    element = document.getElementById('f1SprintRaceTime');
-    if (element && content.f1.sprintRaceTime) {
-        element.textContent = content.f1.sprintRaceTime;
-    }
-    element = document.getElementById('f1MainRaceTime');
-    if (element && content.f1.mainRaceTime) {
-        element.textContent = content.f1.mainRaceTime;
-    }
+	// F1
+	setText('f1Date', content.f1.date);
+	setText('f1Track', content.f1.track);
+	setText('f1QualyTime', content.f1.qualifyingTime);
+	setText('f1SprintRaceTime', content.f1.sprintRaceTime);
+	setText('f1MainRaceTime', content.f1.mainRaceTime);
 
-    // F2
-    element = document.getElementById('f2Date');
-    if (element) {
-        element.textContent = content.f2.date;
-    }
-    element = document.getElementById('f2Track');
-    if (element) {
-        element.textContent = content.f2.track;
-    }
-    element = document.getElementById('f2QualyTime');
-    if (element && content.f2.qualifyingTime) {
-        element.textContent = content.f2.qualifyingTime;
-    }
-    element = document.getElementById('f2SprintRaceTime');
-    if (element && content.f2.sprintRaceTime) {
-        element.textContent = content.f2.sprintRaceTime;
-    }
-    element = document.getElementById('f2MainRaceTime');
-    if (element && content.f2.mainRaceTime) {
-        element.textContent = content.f2.mainRaceTime;
-    }
+	// F2
+	setText('f2Date', content.f2.date);
+	setText('f2Track', content.f2.track);
+	setText('f2QualyTime', content.f2.qualifyingTime);
+	setText('f2SprintRaceTime', content.f2.sprintRaceTime);
+	setText('f2MainRaceTime', content.f2.mainRaceTime);
 
-    // WEC
-    element = document.getElementById('wecDate');
-    if (element) {
-        element.textContent = content.wec.date;
-    }
-    element = document.getElementById('wecTrack');
-    if (element) {
-        element.textContent = content.wec.track;
-    }
-    element = document.getElementById('wecQualyTime');
-    if (element && content.wec.qualifyingTime) {
-        element.textContent = content.wec.qualifyingTime;
-    }
-    element = document.getElementById('wecMainRaceTime');
-    if (element && content.wec.mainRaceTime) {
-        element.textContent = content.wec.mainRaceTime;
-    }
+	// WEC
+	setText('wecDate', content.wec.date);
+	setText('wecTrack', content.wec.track);
+	setText('wecQualyTime', content.wec.qualifyingTime);
+	setText('wecMainRaceTime', content.wec.mainRaceTime);
+}
+
+function setText(id: string, value?: string): void {
+	const element = document.getElementById(id);
+
+	if (!element || !value) {
+		return;
+	}
+
+	// Apply content and flag uncertain times for badge styling.
+	element.textContent = value;
+	element.classList.toggle('is-tbc', value.includes('TBC'));
 }
