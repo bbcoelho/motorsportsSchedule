@@ -199,6 +199,10 @@ main {
 	padding: 12px 14px;
 }
 
+.event-card__detail[hidden] {
+	display: none;
+}
+
 .event-card__detail dt {
 	color: #667085;
 	font-size: 0.72rem;

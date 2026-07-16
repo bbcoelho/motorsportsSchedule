@@ -63,8 +63,25 @@ function setData(content: EventsData): void {
 function setText(id: string, value?: string): void {
 	const element = document.getElementById(id);
 
-	if (!element || !value) {
+	if (!element) {
 		return;
+	}
+
+	const detail = element.closest('.event-card__detail') as HTMLElement | null;
+
+	if (!value) {
+		// Remove rows for sessions that are not part of the event.
+		if (detail) {
+			detail.hidden = true;
+		}
+
+		element.textContent = '';
+		element.classList.remove('is-tbc');
+		return;
+	}
+
+	if (detail) {
+		detail.hidden = false;
 	}
 
 	// Apply content and flag uncertain times for badge styling.
