@@ -10,11 +10,11 @@ Requirements:
 - Update only `back/data/data.json` unless the user explicitly asks for another file.
 - Preserve the existing JSON schema and top-level series keys: `motoGP`, `f1`, `f2`, and `wec`.
 - Keep the current display string format used by the app:
-  - `date`: `Date: Sun, Jul 12 - German GP`
-  - `track`: `Track: Sachsenring`
-  - `qualifyingTime`: `Qualifying: 11/07 - 05:50`
-  - `sprintRaceTime`: `Sprint Race: 11/07 - 10:00`
-  - `mainRaceTime`: `Main Race: 12/07 - 09:00` or `Feature Race: 19/07 - TBC` when appropriate.
+  - `date`: `Sun, Jul 12 - German GP`
+  - `track`: `Sachsenring`
+  - `qualifyingTime`: `11/07 - 05:50`
+  - `sprintRaceTime`: `11/07 - 10:00`
+  - `mainRaceTime`: `12/07 - 09:00` or `19/07 - TBC` when appropriate.
 - Convert all times to Brazilian time, using the `America/Sao_Paulo` timezone.
 - Prefer official sources first:
   - MotoGP: `motogp.com`
