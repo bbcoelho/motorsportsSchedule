@@ -1,28 +1,28 @@
 {
 	"motoGP": {
-		"date": "Sun, Aug 9 - British GP",
-		"track": "Silverstone Circuit",
-		"qualifyingTime": "08/08 - 07:50",
-		"sprintRaceTime": "08/08 - 12:00",
-		"mainRaceTime": "09/08 - 09:00"
+		"date": "Date: Sun, Aug 9 - British GP",
+		"track": "Track: Silverstone Circuit",
+		"qualifyingTime": "Qualifying: 08/08 - 07:50",
+		"sprintRaceTime": "Sprint Race: 08/08 - 12:00",
+		"mainRaceTime": "Main Race: 09/08 - 09:00"
 	},
 	"f1": {
-		"date": "Sun, Jul 19 - Belgian GP",
-		"track": "Spa-Francorchamps",
-		"qualifyingTime": "18/07 - 11:00",
-		"mainRaceTime": "19/07 - 10:00"
+		"date": "Date: Sun, Jul 26 - Hungarian GP",
+		"track": "Track: Hungaroring",
+		"qualifyingTime": "Qualifying: 25/07 - 11:00",
+		"mainRaceTime": "Main Race: 26/07 - 10:00"
 	},
 	"f2": {
-		"date": "Sun, Jul 19 - Belgian GP",
-		"track": "Spa-Francorchamps",
-		"qualifyingTime": "17/07 - 11:00",
-		"sprintRaceTime": "18/07 - 09:15",
-		"mainRaceTime": "19/07 - 05:00"
+		"date": "Date: Sun, Jul 26 - Hungarian GP",
+		"track": "Track: Hungaroring",
+		"qualifyingTime": "Qualifying: 24/07 - 11:05",
+		"sprintRaceTime": "Sprint Race: 25/07 - 09:15",
+		"mainRaceTime": "Feature Race: 26/07 - 06:25"
 	},
 	"wec": {
-		"date": "Sun, Sep 6 - Lone Star Le Mans",
-		"track": "Circuit of the Americas",
-		"qualifyingTime": "05/09 - TBC",
-		"mainRaceTime": "06/09 - TBC"
+		"date": "Date: Sun, Sep 6 - Lone Star Le Mans",
+		"track": "Track: Circuit of the Americas",
+		"qualifyingTime": "Qualifying: 05/09 - TBC",
+		"mainRaceTime": "Main Race: 06/09 - TBC"
 	}
 }
