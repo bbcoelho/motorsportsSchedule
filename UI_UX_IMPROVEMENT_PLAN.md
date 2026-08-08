@@ -1,5 +1,18 @@
 # UI/UX Improvement Plan
 
+## Progress
+
+- [x] Step 1: Add semantic card markup while preserving existing data IDs.
+- [x] Step 2: Refresh base visual theme and responsive page shell.
+- [x] Step 3: Style event cards, session rows, and TBC badges.
+- [x] Step 4: Add loading and error UI states.
+- [x] Step 5: Hide optional session rows when data is absent.
+- [x] Step 6: Run final build verification and mark the plan complete.
+- [x] Follow-up: Remove redundant per-card `Next ... event` headings.
+- [x] Follow-up: Remove repeated display labels from schedule JSON values.
+
+Final verification: `npm run build` passed in `front`.
+
 ## Highest Impact Improvements
 
 1. Turn each series into a proper event card.
