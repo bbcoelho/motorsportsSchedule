@@ -1,29 +1,28 @@
 {
 	"motoGP": {
-		"date": "Sun, Aug 30 - Aragon GP",
-		"track": "MotorLand Aragon",
-		"qualifyingTime": "29/08 - 05:50",
-		"sprintRaceTime": "29/08 - 10:00",
-		"mainRaceTime": "30/08 - 09:00"
+		"date": "Sun, Sep 13 - San Marino GP",
+		"track": "Misano World Circuit Marco Simoncelli",
+		"qualifyingTime": "12/09 - TBC",
+		"sprintRaceTime": "12/09 - TBC",
+		"mainRaceTime": "13/09 - TBC"
 	},
 	"f1": {
-		"date": "Sun, Aug 23 - Dutch GP",
-		"track": "Circuit Zandvoort",
-		"qualifyingTime": "22/08 - 11:00",
-		"sprintRaceTime": "22/08 - 07:00",
-		"mainRaceTime": "23/08 - 10:00"
+		"date": "Sun, Sep 6 - Italian GP",
+		"track": "Autodromo Nazionale Monza",
+		"qualifyingTime": "05/09 - 09:00",
+		"mainRaceTime": "06/09 - 08:00"
 	},
 	"f2": {
 		"date": "Sun, Sep 6 - Italian GP",
 		"track": "Autodromo Nazionale Monza",
-		"qualifyingTime": "04/09 - 09:55",
-		"sprintRaceTime": "05/09 - 09:15",
-		"mainRaceTime": "06/09 - 04:45"
+		"qualifyingTime": "04/09 - TBC",
+		"sprintRaceTime": "05/09 - TBC",
+		"mainRaceTime": "06/09 - TBC"
 	},
 	"wec": {
 		"date": "Sun, Sep 6 - Lone Star Le Mans",
 		"track": "Circuit of the Americas",
-		"qualifyingTime": "05/09 - 17:00",
-		"mainRaceTime": "06/09 - 15:00"
+		"qualifyingTime": "05/09 - TBC",
+		"mainRaceTime": "06/09 - TBC"
 	}
 }
