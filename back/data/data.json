@@ -2,27 +2,27 @@
 	"motoGP": {
 		"date": "Sun, Sep 13 - San Marino GP",
 		"track": "Misano World Circuit Marco Simoncelli",
-		"qualifyingTime": "12/09 - TBC",
-		"sprintRaceTime": "12/09 - TBC",
-		"mainRaceTime": "13/09 - TBC"
+		"qualifyingTime": "12/09 - 06:15",
+		"sprintRaceTime": "12/09 - 10:00",
+		"mainRaceTime": "13/09 - 09:00"
 	},
 	"f1": {
-		"date": "Sun, Sep 6 - Italian GP",
-		"track": "Autodromo Nazionale Monza",
-		"qualifyingTime": "05/09 - 09:00",
-		"mainRaceTime": "06/09 - 08:00"
+		"date": "Sun, Sep 13 - Spanish GP",
+		"track": "Madring",
+		"qualifyingTime": "12/09 - 09:00",
+		"mainRaceTime": "13/09 - 08:00"
 	},
 	"f2": {
-		"date": "Sun, Sep 6 - Italian GP",
-		"track": "Autodromo Nazionale Monza",
-		"qualifyingTime": "04/09 - 07:55",
-		"sprintRaceTime": "05/09 - 07:15",
-		"mainRaceTime": "06/09 - 02:45"
+		"date": "Sun, Sep 13 - Spanish GP",
+		"track": "Madring",
+		"qualifyingTime": "11/09 - 08:00",
+		"sprintRaceTime": "12/09 - 07:15",
+		"mainRaceTime": "13/09 - 04:25"
 	},
 	"wec": {
-		"date": "Sun, Sep 6 - Lone Star Le Mans",
-		"track": "Circuit of the Americas",
-		"qualifyingTime": "05/09 - TBC",
-		"mainRaceTime": "06/09 - TBC"
+		"date": "Sun, Sep 27 - 6 Hours of Fuji",
+		"track": "Fuji Speedway",
+		"qualifyingTime": "26/09 - 03:00",
+		"mainRaceTime": "26/09 - 23:00"
 	}
 }
