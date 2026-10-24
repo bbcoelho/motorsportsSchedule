@@ -1,28 +1,28 @@
 {
 	"motoGP": {
-		"date": "Sun, Oct 4 - Japanese GP",
-		"track": "Mobility Resort Motegi",
-		"qualifyingTime": "03/10 - 22:50",
-		"sprintRaceTime": "03/10 - 03:00",
-		"mainRaceTime": "04/10 - 02:00"
+		"date": "Sun, Oct 25 - Australian GP",
+		"track": "Phillip Island",
+		"qualifyingTime": "23/10 - 20:50",
+		"sprintRaceTime": "24/10 - 01:00",
+		"mainRaceTime": "25/10 - 00:00"
 	},
 	"f1": {
-		"date": "Sat, Sep 26 - Azerbaijan GP",
-		"track": "Baku City Circuit",
-		"qualifyingTime": "25/09 - 12:00",
-		"mainRaceTime": "26/09 - 11:00"
+		"date": "Sun, Oct 25 - United States GP",
+		"track": "Circuit of the Americas",
+		"qualifyingTime": "24/10 - 18:00",
+		"mainRaceTime": "25/10 - 17:00"
 	},
 	"f2": {
-		"date": "Sat, Sep 26 - Azerbaijan GP",
-		"track": "Baku City Circuit",
-		"qualifyingTime": "24/09 - 10:00",
-		"sprintRaceTime": "25/09 - 04:15",
-		"mainRaceTime": "26/09 - 07:00"
+		"date": "Sun, Nov 29 - Qatar GP",
+		"track": "Lusail International Circuit",
+		"qualifyingTime": "27/11 - TBC",
+		"sprintRaceTime": "28/11 - TBC",
+		"mainRaceTime": "29/11 - TBC"
 	},
 	"wec": {
-		"date": "Sun, Sep 27 - 6 Hours of Fuji",
-		"track": "Fuji Speedway",
-		"qualifyingTime": "26/09 - 02:00",
-		"mainRaceTime": "26/09 - 23:00"
+		"date": "Sun, Nov 8 - 6 Hours of Monza",
+		"track": "Autodromo Nazionale Monza",
+		"qualifyingTime": "07/11 - 11:00",
+		"mainRaceTime": "08/11 - 07:00"
 	}
 }
