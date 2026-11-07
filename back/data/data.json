@@ -1,16 +1,16 @@
 {
 	"motoGP": {
-		"date": "Sun, Nov 1 - Malaysian GP",
-		"track": "Petronas Sepang International Circuit",
-		"qualifyingTime": "30/10 - 23:50",
-		"sprintRaceTime": "31/10 - 04:00",
-		"mainRaceTime": "01/11 - 04:00"
+		"date": "Sun, Nov 8 - Qatar GP",
+		"track": "Lusail International Circuit",
+		"qualifyingTime": "07/11 - 08:40",
+		"sprintRaceTime": "07/11 - 13:00",
+		"mainRaceTime": "08/11 - 13:00"
 	},
 	"f1": {
-		"date": "Sun, Nov 1 - Mexico City GP",
-		"track": "Autódromo Hermanos Rodríguez",
-		"qualifyingTime": "31/10 - 18:00",
-		"mainRaceTime": "01/11 - 17:00"
+		"date": "Sun, Nov 8 - São Paulo GP",
+		"track": "Autódromo José Carlos Pace",
+		"qualifyingTime": "07/11 - 15:00",
+		"mainRaceTime": "08/11 - 14:00"
 	},
 	"f2": {
 		"date": "Sun, Nov 29 - Qatar GP",
