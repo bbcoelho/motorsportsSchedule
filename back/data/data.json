@@ -1,28 +1,28 @@
 {
 	"motoGP": {
-		"date": "Sun, Nov 8 - Qatar GP",
-		"track": "Lusail International Circuit",
-		"qualifyingTime": "07/11 - 08:40",
-		"sprintRaceTime": "07/11 - 13:00",
-		"mainRaceTime": "08/11 - 13:00"
+		"date": "Sun, Nov 22 - Portuguese GP",
+		"track": "Autódromo Internacional do Algarve",
+		"qualifyingTime": "21/11 - 07:50",
+		"sprintRaceTime": "21/11 - 12:00",
+		"mainRaceTime": "22/11 - 10:00"
 	},
 	"f1": {
-		"date": "Sun, Nov 8 - São Paulo GP",
-		"track": "Autódromo José Carlos Pace",
-		"qualifyingTime": "07/11 - 15:00",
-		"mainRaceTime": "08/11 - 14:00"
+		"date": "Sun, Nov 22 - Las Vegas GP",
+		"track": "Las Vegas Strip Circuit",
+		"qualifyingTime": "21/11 - 01:00",
+		"mainRaceTime": "22/11 - 01:00"
 	},
 	"f2": {
 		"date": "Sun, Nov 29 - Qatar GP",
 		"track": "Lusail International Circuit",
-		"qualifyingTime": "27/11 - TBC",
-		"sprintRaceTime": "28/11 - TBC",
-		"mainRaceTime": "29/11 - TBC"
+		"qualifyingTime": "27/11 - 12:00",
+		"sprintRaceTime": "28/11 - 13:15",
+		"mainRaceTime": "29/11 - 09:00"
 	},
 	"wec": {
-		"date": "Sun, Nov 8 - 6 Hours of Monza",
-		"track": "Autodromo Nazionale Monza",
-		"qualifyingTime": "07/11 - 11:00",
-		"mainRaceTime": "08/11 - 07:00"
+		"date": "Sat, Mar 27 - Qatar 1812km",
+		"track": "Lusail International Circuit",
+		"qualifyingTime": "26/03 - TBC",
+		"mainRaceTime": "27/03 - TBC"
 	}
 }
