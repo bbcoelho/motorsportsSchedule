@@ -1,6 +1,5 @@
 ---
 description: Search the web and update motorsports race data.
-agent: build
 ---
 
 Search the web and update `back/data/data.json` with the next/current motorsports race schedule.
